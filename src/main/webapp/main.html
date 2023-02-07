@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Pets</title>
+    <style>
+        button {
+            font-weight: bold
+        }
+    </style>
+</head>
+<body>
+<h2> The page about my family pets welcomes you, visitor!</h2>
+<br/>
+<br/>
+<h4>Select an action, you want to do:</h4>
+<form name="showall" method="post" action="engine">
+    <input type="hidden" name="command" value="showall">
+    <button type="submit">Show all pets</button>
+</form>
+<br/>
+<form action="create.html">
+    <button>Add new pet</button>
+</form>
+<br/>
+<form action="selectbyid.html">
+    <button>Select pet by ID</button>
+</form>
+
+</body>
+</html>

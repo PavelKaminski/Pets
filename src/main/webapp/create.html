@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<html>
+<head>
+    <title>Pets</title>
+</head>
+<body>
+<h2>Add new pet to our database:</h2>
+<br/>
+<form name="AddForm" method="post" action="engine">
+    <fieldset style="width: 300px">
+        <legend>Create</legend>
+    <input type="hidden" name="command" value="create"><br/>
+    Species: <input type="text" name="species" value=""/>
+    <p></p>
+    Name: <input type="text" name="name"/>
+    <p></p>
+    Age: <input type="text" name="age"/>
+    <p></p>
+    Color: <input type="text" name="color"/>
+    <p></p>
+    Owner: <input type="text" name="owner">
+    <p></p>
+    <input type="submit" value="Add" style="font-weight: bold">
+    </fieldset>
+</form>
+
+</body>
+</html>
